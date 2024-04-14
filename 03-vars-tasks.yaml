@@ -1,6 +1,6 @@
 - name: printed varibles from tasks level
   hosts: mongodb
-  vars_tasks:
+  vars_files:
    varibles.yaml
   tasks:
   - name: printed varibles from tasks level
